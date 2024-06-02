@@ -1,0 +1,7 @@
+{
+  "name": "mercearia",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
