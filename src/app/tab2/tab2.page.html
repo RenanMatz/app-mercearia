@@ -1,17 +1,36 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content [fullscreen]="true" class="ion-padding ion-text-center">
+  <ion-grid>
+    <div class="column-container">
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+      <ion-row class="header">
+        
+        <ion-row class="location-container">
+          <ion-icon name="location-outline"></ion-icon>
+          <p>São Paulo, SP</p>
+        </ion-row>
+        <img src="../../assets/img/user.png" alt="foto de usuário genérica">
+      </ion-row>
+      <ion-searchbar placeholder="" class="ion-text-start"></ion-searchbar>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+      <ion-row class="section-container">
+        <ion-row class="section" id="fruit">
+          <img src="../../assets/img/frutas.png" alt="literalmente um abacate">
+          <p>Frutas</p>
+        </ion-row>
+        <ion-row class="section" id="several">
+          <img src="../../assets/img/diversos.png" alt="una barra de chocola">
+          <p>Diversos</p>
+        </ion-row>
+        <ion-row class="section" id="butcher">
+          <img src="../../assets/img/acougue.png" alt="um frango frito  ">
+          <p>Açougue</p>
+        </ion-row>
+        <ion-row class="section" id="drink">
+          <img src="../../assets/img/drink.png" alt="um copo de refri tipo do mcdonalds">
+          <p>Bebidas</p>
+        </ion-row>
+      </ion-row>
+    </div>
+
+  </ion-grid>
 </ion-content>

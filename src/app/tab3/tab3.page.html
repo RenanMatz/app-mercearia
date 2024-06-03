@@ -1,17 +1,93 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<!-- Fonte Montserrat -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<!-- Body 2? -->
+<ion-content [fullscreen]="true" class="ion-padding ion-text-center">
+  <ion-grid>
+    <div class="column-container">
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+
+      <ion-row class="header">
+        <ion-row class="location-container">
+          <ion-icon name="location-outline"></ion-icon>
+          <p>São Paulo, SP</p>
+        </ion-row>
+        <img src="../../assets/img/user.png" alt="foto de usuário genérica">
+      </ion-row>
+
+      <div class="welcome-container ion-text-start">
+        <p id="welcome">Seja bem-vindo,</p>
+        <p id="message">Vamos pedir itens fresquinhos para você?</p>
+      </div>
+
+      <div class="categories">
+        <p>Categorias</p>
+        <ion-row class="categories-container">
+          <div class="block" id="fruit">
+            <img src="../../assets/img/frutas.png" alt="um abacate cortado ao meio">
+            <span>Frutas</span>
+          </div>
+          <div class="block" id="several">
+            <img src="../../assets/img/diversos.png" alt="uma barra de chocolate com a embalagem aberta">
+            <span>Diversos</span>
+          </div>
+          <div class="block" id="butcher">
+            <img src="../../assets/img/acougue.png" alt="Um frango assado inteiro">
+            <span>Açougue</span>
+          </div>
+        </ion-row>
+      </div>
+
+        <div class="my-shopping">
+          <p>Minhas compras</p>
+          <div class="line-container">
+            <ion-row class="line">
+              <ion-row class="purchase-name">
+                <img src="../../assets/img/frutas.png" alt="um abacate cortado ao meio" id="avocado">
+                <div>
+                    <p>Frutas</p>
+                    <span>01/06/2024</span>
+                </div>
+              </ion-row>
+                <div class="shop-info">
+                    <p>R$ 50,00</p>
+                    <span>5 sacolas</span>
+                </div>
+            </ion-row>
+
+            <ion-row class="line">
+              <ion-row class="purchase-name">
+                <img src="../../assets/img/diversos.png" alt="uma barra de chocolate com a embalagem aberta" id="chocolate-bar">
+                <div>
+                    <p>Diversos</p>
+                    <span>01/06/2024</span>
+                </div>
+              </ion-row>
+                <div  class="shop-info">
+                    <p>R$ 13,50</p>
+                    <span>2 itens</span>
+                </div>
+            </ion-row>
+
+            <ion-row class="line">
+              <ion-row class="purchase-name">
+                <img src="../../assets/img/acougue.png" alt="Um frango assado inteiro" id="chicken">
+                <div>
+                    <p>Açougue</p>
+                    <span>23/05/2024</span>
+                </div>
+              </ion-row>
+                <div  class="shop-info">
+                    <p>R$ 102,18</p>
+                    <span>5 kilos</span>
+                </div>
+            </ion-row>
+
+          </div>
+        </div>
+
+      </div>
+    </ion-grid>
 </ion-content>

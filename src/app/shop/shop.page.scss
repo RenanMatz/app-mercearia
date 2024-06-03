@@ -1,0 +1,163 @@
+// Estilização padrão
+*{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    --background: none;
+    background-color: #fff;
+}
+
+// Botão
+.button-container{
+    width: 100%;
+    height: 8vh;
+    margin-bottom: 20px;
+}
+
+.button-container button{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #F8F9FA;
+}
+
+.button-container button ion-icon{
+    font-size: 24px;
+    color: #888;
+}
+
+
+// Título
+.title{
+    width: 100%;
+    height: 7vh;
+    margin-bottom: 20px;
+}
+
+.title h1{
+    font-weight: bold;
+    font-size: 34px;
+}
+
+
+// Conteiner geral
+.container{
+    height: 74vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+// Linhas
+.line{
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.categories{
+    height: 100%;
+    align-items: center;
+    gap: 7px;
+}
+
+.categories img{
+    width: 77px;
+    height: 77px;
+    border-radius: 50px;
+}
+
+#avocado{
+    background-color: #C5D7B1;
+}
+
+#chocolate-bar{
+    background-color: #92B6FA;
+}
+
+#chicken{
+    background-color: #F0BDB2;
+}
+
+.category-info{
+    flex-direction: column;
+}
+
+.category-info p{
+    font-size: 14px;
+    text-align: start;
+    line-height: 1.5;
+}
+
+.price p{
+    font-size: 10px;
+    font-weight: 800;
+}
+
+.price p span{
+    color: #ccc;
+    font-size: 10px;
+    margin-left: 3px;
+}
+
+.edit{
+    gap: 5px;
+    color: #7785DB;
+}
+
+.edit p{
+    font-size: 12px;
+}
+
+.edit ion-icon{
+    font-size: 0.8rem;
+}
+
+
+// Card de pagamento total
+.card{
+    width: 100%;
+    height: 15vh;
+    background-color: #7785DB;
+    border-radius: 16px;
+    color: #fff;
+    padding: 0px 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card .total{
+    flex-direction: column;
+    width: 35%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.card .total span{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card .total p{
+    font-weight: bold;
+}
+
+.card #pay-now{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 7px;
+    border: 1px solid #fff;
+    border-radius: 16px;
+}
+
+.card #pay-now ion-icon{
+    font-size: 12px;
+}

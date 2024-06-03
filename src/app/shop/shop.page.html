@@ -1,0 +1,85 @@
+<!-- Fonte Montserrat -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+<ion-content [fullscreen]="true" class="ion-padding ion-text-center">
+  <ion-row class="button-container">
+    <button routerLink="/tabs/tab3"><ion-icon name="chevron-back-outline"></ion-icon></button>
+  </ion-row>
+
+  <ion-row class="title">
+    <h1>Meu carrinho</h1>
+  </ion-row>
+
+  <!-- Conteiner das linhas e card de compra no final -->
+  <ion-row class="container">
+    <!-- Container das linhas -->
+    <ion-row class="line-container">
+      <!-- Linha -->
+      <ion-row class="line">
+        <!-- Primeira parte da linha -->
+        <ion-row class="categories">
+          <img src="../../assets/img/frutas.png" alt="um abacate cortado ao meio" id="avocado">
+          <ion-row class="category-info">
+            <p>Frutas</p>
+            <ion-row class="price">
+              <p>R$ 50,00  <span>5 sacolas</span></p>
+            </ion-row>
+          </ion-row>
+        </ion-row>
+        <!-- Segunda parte da linha -->
+        <ion-row class="edit">
+          <ion-icon name="pencil"></ion-icon><p>Editar</p>
+        </ion-row>
+      </ion-row>
+
+      <!-- Linha -->
+      <ion-row class="line">
+        <!-- Primeira parte da linha -->
+        <ion-row class="categories">
+            <img src="../../assets/img/diversos.png" alt="uma barra de chocolate" id="chocolate-bar">
+            <ion-row class="category-info">
+              <p>Diversos</p>
+              <ion-row class="price">
+                <p>R$ 13,50  <span>2 itens</span></p>             
+              </ion-row>
+            </ion-row>
+        </ion-row>
+        <!-- Segunda parte da linha -->
+        <ion-row class="edit">
+          <ion-icon name="pencil"></ion-icon><p>Editar</p>
+        </ion-row>
+      </ion-row>
+    
+      <!-- Linha -->
+      <ion-row class="line">
+        <!-- Primeira parte da linha -->
+        <ion-row class="categories">
+            <img src="../../assets/img/acougue.png" alt="um abacate cortado ao meio" id="chicken">
+            <ion-row class="category-info">
+              <p>Açougue</p>
+              <ion-row class="price">
+                <p>R$ 102,18  <span>5 kilos</span></p>
+              </ion-row>
+            </ion-row>
+        </ion-row>
+        <!-- Segunda parte da linha -->
+        <ion-row class="edit">
+          <ion-icon name="pencil"></ion-icon><p>Editar</p>
+        </ion-row>
+      </ion-row>
+    </ion-row>
+
+    <!-- Card -->
+    <ion-row class="card">
+      <ion-row class="total">
+        <span>Total a pagar</span>
+        <p>R$ 168,68</p>
+      </ion-row>
+      <span id="pay-now">Pagar agora <ion-icon name="chevron-forward-outline"></ion-icon></span>
+    </ion-row>
+  
+  </ion-row>
+</ion-content>
