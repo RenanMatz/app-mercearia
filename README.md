@@ -1,3 +1,2 @@
 ## App de uma mercearia
-Feito com Ionic e Angular
-layout e responsividade
+Feito com Ionic e Angular, layout e responsividade
